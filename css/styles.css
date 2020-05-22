@@ -190,6 +190,20 @@ ul {
 
 /* в портфолио */
 
+.nav-item {
+    margin-right: 30px;
+    padding-top: 4px;
+    width: calc((100% - 90px) / 4);
+    color: var(--title-text-color);
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
 .item {
     margin: 0;
     padding-top: 4px;
@@ -253,7 +267,7 @@ ul {
     height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: url(/images/Header\img.png);
+    background-image: url(/images/Header\ img.png);
     background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: darken;
     color: white;
@@ -335,7 +349,11 @@ ul {
 }
 
 .specialization li {
-    margin: auto;
+    margin-right: 30px;
+}
+
+.specialization li:last-child {
+    margin-right: 0;
 }
 
 
@@ -386,7 +404,6 @@ ul {
 
 .advantages-list {
     display: flex;
-    justify-content: center;
 }
 
 .illustration {
@@ -431,6 +448,10 @@ ul {
 
 /* Чем мы занимаемся */
 
+.our_focus {
+    width: calc((100% - 60px) / 3);
+}
+
 .white-color-title {
     color: var(--white-color);
     background-color: var(--color-specialization);
@@ -459,7 +480,7 @@ ul {
 
 .participants {
     text-align: center;
-    width: 270px;
+    width: calc((100% - 90px) / 4);
     margin-right: 28px;
     padding-bottom: 24px;
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
@@ -730,7 +751,7 @@ ul {
     border-radius: 5px;
 }
 
-.portfolio_item:nth-last-child(-n + 3) {
+.portfolio_item:nth-last-child(-n+3) {
     margin-bottom: 0;
 }
 
