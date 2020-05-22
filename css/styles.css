@@ -223,22 +223,6 @@ ul {
 }
 
 
-/* .site-nav .item+.item {
-    background-color: tomato;
-    margin-left: 50px;
-} */
-
-
-/* .list-nav {
-    margin-right: 50px;
-    background-color: tomato;
-}
-
-.list-nav:last-child {
-    margin-right: 0;
-} */
-
-
 /* герой */
 
 .container-hero {
@@ -267,7 +251,7 @@ ul {
     height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: url(/images/Header\ img.png);
+    background-image: url(/images/Header\img.png);
     background-color: rgba(0, 0, 0, 0.7);
     background-blend-mode: darken;
     color: white;
@@ -490,14 +474,6 @@ ul {
 .participants:last-child {
     margin-right: 0;
 }
-
-
-/* .social {
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 28px;
-    margin-bottom: 36px;
-} */
 
 
 /* постоянные клиенты */
@@ -751,7 +727,7 @@ ul {
     border-radius: 5px;
 }
 
-.portfolio_item:nth-last-child(-n+3) {
+.portfolio_item:nth-last-child(-n + 3) {
     margin-bottom: 0;
 }
 
